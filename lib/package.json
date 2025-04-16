@@ -1,6 +1,6 @@
 {
   "name": "next-static-sitemap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatic sitemap.xml generator for Next.js with native support for App Router and Page Router.",
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.ts",
@@ -17,7 +17,9 @@
   ],
   "scripts": {
     "build": "tsup",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "prepublish": "cp ../LICENSE ./license.md",
+    "publish:pkg": "npm run prepublish && npm publish --access public"
   },
   "peerDependencies": {
     "next": ">=13.3.0"
