@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "husky": "^9.1.7"
+  },
+  "scripts": {
+    "copy-readme": "cp lib/README.md README.md",
+    "prepare": "husky install"
+  }
+}

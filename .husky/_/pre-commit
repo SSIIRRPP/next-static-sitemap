@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/husky.sh"
+
+yarn copy-readme
+git add README.md
