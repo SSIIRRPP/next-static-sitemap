@@ -43,7 +43,7 @@
     "seo"
   ],
   "bin": {
-    "next-static-sitemap": "./dist/bin/cli.cjs"
+    "next-static-sitemap": "dist/bin/cli.cjs"
   },
   "repository": {
     "type": "git",
