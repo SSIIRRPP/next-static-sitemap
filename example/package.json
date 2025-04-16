@@ -1,0 +1,21 @@
+{
+  "name": "with-mixed-router",
+  "private": true,
+  "scripts": {
+    "dev": "next-static-sitemap dev",
+    "build": "next-static-sitemap build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "next-static-sitemap": "file:../lib",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}

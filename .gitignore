@@ -1,0 +1,6 @@
+node_modules
+.yarn
+.next
+dist
+out
+example/public/sitemap.xml

@@ -1,0 +1,62 @@
+{
+  "name": "next-static-sitemap",
+  "version": "1.0.0",
+  "description": "Automatic sitemap.xml generator for Next.js with native support for App Router and Page Router.",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "next": ">=13.3.0"
+  },
+  "devDependencies": {
+    "@types/chokidar": "^2.1.7",
+    "@types/lodash.debounce": "^4.0.9",
+    "@types/node": "^22.14.1",
+    "next": "^13.4.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  },
+  "keywords": [
+    "nextjs",
+    "sitemap",
+    "static",
+    "app-router",
+    "page-router",
+    "plugin",
+    "seo"
+  ],
+  "bin": {
+    "next-static-sitemap": "./dist/bin/cli.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSIIRRPP/next-static-sitemap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SSIIRRPP/next-static-sitemap/issues"
+  },
+  "homepage": "https://github.com/SSIIRRPP/next-static-sitemap#readme",
+  "type": "module",
+  "sideEffects": false,
+  "license": "MIT",
+  "author": "SSIIRRPP",
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "lodash.debounce": "^4.0.8"
+  }
+}
