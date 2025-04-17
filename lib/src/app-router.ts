@@ -3,7 +3,7 @@ import { generateUrlsFromParamsAndRegister } from "./url-resolver";
 /**
  * Wraps a `generateStaticParams`-like function to register dynamic routes for the sitemap.
  *
- * This utility should be used in **App Router with `generateStaticParams()` to automatically
+ * This utility should be used in **App Router** with `generateStaticParams()` to automatically
  * collect and store resolved route parameters for sitemap generation.
  *
  * @template T The shape of each route parameter object (e.g., `{ slug: string }`)

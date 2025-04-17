@@ -148,6 +148,14 @@ To avoid committing the generated `sitemap.xml`, add this to your `.gitignore`:
 /public/sitemap.xml
 ```
 
+Or your custom path passed to config file's `output`
+
+You should include `.next-static-sitemap` to your `.gitignore` file too, to avoid commiting its changes in `dev` mode:
+
+```
+.next-static-sitemap
+```
+
 ---
 
 ## 📄 License
